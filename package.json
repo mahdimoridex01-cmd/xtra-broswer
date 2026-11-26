@@ -1,0 +1,21 @@
+{
+  "name": "xtra-browser",
+  "version": "1.0.0",
+  "description": "Xtra Browser - Fast and clean desktop web browser",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win portable"
+  },
+  "build": {
+    "appId": "com.xtrabrowser.app",
+    "productName": "Xtra Browser",
+    "win": {
+      "target": "portable"
+    }
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  }
+}
